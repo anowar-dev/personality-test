@@ -45,10 +45,10 @@ body{
     font-size: 1.1rem;
 }
 .input-group.name .placeholder-star{
-    left: 5.4rem;
+    left: 5.9rem;
 }
 .input-group.mobile .placeholder-star{
-    left: 7.9rem;
+    left: 8.1rem;
 }
 .input-group.email .placeholder-star{
     left: 3.8rem;
@@ -167,7 +167,7 @@ body{
     color: white; 
 }
 .progressDiv{
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
 }
 .mcqs .mcqName:hover{
     box-shadow: 0 0 5px #0074D9;
@@ -274,11 +274,19 @@ body{
     font-weight: 600;
     padding: .8rem;
     display: inline-block;
+    text-decoration: none;
 }
 .footerEmail{
     font-size: 1.4rem;
     font-weight: 600;
     margin-bottom: 0;
+}
+.footerEmail a{
+    text-decoration: none;
+    transition: .3s ease;
+}
+.footerEmail a:hover{
+    text-decoration: underline;
 }
 .footerPara{
     font-size: 0.7rem;
