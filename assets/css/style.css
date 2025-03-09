@@ -41,12 +41,12 @@ body{
     column-gap: .5rem;
 }
 #countryCode{
-    width: 8rem;
-    padding: 0.6rem .1rem;
-    font-size: 0.9rem;
+    width: 7.5rem;
+    padding: 0.75rem .41rem;
+    font-size: 0.85rem;
 }
 #mobileInput{
-    width: calc(100% - 8.5rem);
+    width: calc(100% - 8rem);
 }
 .homeForm .input-group{
     position: relative;
@@ -62,7 +62,7 @@ body{
     left: 5.9rem;
 }
 .input-group.mobile .placeholder-star{
-    left: 16.65rem;
+    left: 16.15rem;
 }
 .input-group.email .placeholder-star{
     left: 3.8rem;
